@@ -1,0 +1,50 @@
+/* src/components/QuestionCard.css */
+
+/* Card Styling */
+.card {
+    background-color: #ffffff;
+    padding: 2em;
+    margin: 1.5em 0;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Question Styling */
+  .question {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Option Label Styling */
+.option {
+    display: block; /* Ensures each option is on a new line */
+    padding: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  /* Option List Styling */
+  ul.option-list {
+    list-style: block; /* Remove default bullets */
+    padding: 0; /* Remove default padding */
+  }
+  
+  /* List Item Styling */
+  ul.option-list li {
+    padding: 1rem;
+    border-bottom: 1px solid #ddd; /* Optional: adds a separator line */
+  }
+  
+  
+  
+  /* Answer Label Styling */
+  .answer-label {
+    margin-left: 0.5rem; /* Space between radio button and label text */
+  }
+  
+  /* Button Styling */
+  button {
+    cursor: pointer;
+  }
+  

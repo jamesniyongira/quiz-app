@@ -1,0 +1,27 @@
+/* src/components/CircularTimer.css */
+.circular-timer {
+  position: relative;
+  display: inline-block;
+  margin: 20px auto; /* Center the timer */
+}
+
+.timer-svg {
+  transform: rotate(-90deg); /* Rotate to start from the top */
+}
+
+.timer-circle {
+  fill: transparent; /* Fill is transparent */
+  stroke: red; /* Stroke color for the circle */
+  stroke-width: 10; /* Width of the stroke */
+  transition: stroke-dashoffset 1s linear; /* Smooth transition */
+}
+
+.timer-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  color: red; /* Text color */
+  font-weight: bold;
+}
